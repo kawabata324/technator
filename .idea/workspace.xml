@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="317c8fa0-c3b1-48d9-9778-7fc01d56e52d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/game.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/programing_language.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/programing_language.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20220415132335_create_programing_languages.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20220415132335_create_programing_languages.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <workItem from="1649985852598" duration="473000" />
       <workItem from="1649986332498" duration="1731000" />
       <workItem from="1650015358300" duration="3917000" />
-      <workItem from="1650090864299" duration="6509000" />
+      <workItem from="1650090864299" duration="8570000" />
     </task>
     <servers />
   </component>

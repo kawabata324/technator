@@ -7,6 +7,7 @@ class CreateProgramingLanguages < ActiveRecord::Migration[6.1]
       t.integer :created_year
       t.integer :lang_type
       t.string :framework
+      t.string :keyword
       t.timestamps
     end
   end
