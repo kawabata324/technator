@@ -1,0 +1,41 @@
+<div id="programing_languages_list">
+  <p>
+    <button class="btn btn-primary" type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample"
+            aria-expanded="true"
+            aria-controls="collapseExample">
+      漫画候補一覧はこちら
+    </button>
+  </p>
+  <div id="collapseExample" class="collapse">
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">名前</th>
+        <th scope="col">イメージカラー</th>
+        <th scope="col">作成日</th>
+        <th scope="col">型付け</th>
+        <th scope="col">代表的フレームワーク</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% ProgramingLanguage.all.each do |programing_language| %>
+        <tr>
+          <td><%= programing_language.name %></td>
+          <td><%= programing_language.image_color %></td>
+          <td><%= programing_language.created_year %></td>
+          <td>
+            <% if programing_language.lang_type === 0 %>
+              静的
+            <% else %>
+              動的
+            <% end %>
+          </td>
+          <td><%= programing_language.framework %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
